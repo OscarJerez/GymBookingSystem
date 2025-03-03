@@ -68,18 +68,35 @@ So that I don’t forget.
 ```
 
 ## 📌 Use Cases
-
 ### **1️⃣ Book a Class**
-
 - **Pre-condition:** User is logged in.
 - **Post-condition:** The class is booked, and a confirmation is sent.
 - **Main Flow:** Select class → Book → Confirmation received.
 
 ### **2️⃣ Manage Classes**
-
 - **Pre-condition:** Gym owner is logged in.
 - **Post-condition:** The class is updated, and members are notified.
 - **Main Flow:** Gym owner selects class → Modifies details → Saves changes.
+
+### **3️⃣ Process Payment**
+- **Pre-condition:** User has selected a membership plan.
+- **Post-condition:** Payment is processed, and access is granted.
+- **Main Flow:** Select plan → Enter payment details → Confirm payment → Access granted.
+
+### **4️⃣ Manage GitHub Project Board**
+- **Pre-condition:** The user has access to the GitHub repository.
+- **Post-condition:** Tasks are moved through different project stages.
+- **Main Flow:** Create an issue → Assign to sprint → Move to "To Do" → Move to "In Progress" → Submit PR → Code review → Merge PR → Move to "Done".
+
+### **5️⃣ Automate Task Assignment**
+- **Pre-condition:** A new issue is created with a label `ready`.
+- **Post-condition:** The issue is assigned to a developer and moved to "To Do".
+- **Main Flow:** Label issue as `ready` → GitHub Actions moves issue → Developer is assigned → Issue moves to "In Progress" when work starts.
+
+### **6️⃣ Close Issues on PR Merge**
+- **Pre-condition:** A pull request is merged into the main branch.
+- **Post-condition:** The related issue is automatically closed.
+- **Main Flow:** PR created → Code reviewed → PR merged → GitHub Action closes issue.
 
 ## 📊 UML Class Diagram
 
