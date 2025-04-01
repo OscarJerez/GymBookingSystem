@@ -1,10 +1,12 @@
 ﻿namespace GymBookingSystem
 {
-    internal class Program
+    using System;
+    using GymBookingSystem.Runner;
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            AppRunner.Run();
         }
     }
 }
