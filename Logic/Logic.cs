@@ -59,7 +59,7 @@ namespace GymBookingSystem.Logic
             }
 
             Console.WriteLine("Invalid credentials or role.");
-            return null;
+            return null!;
         }
     }
 }
