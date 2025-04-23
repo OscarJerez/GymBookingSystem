@@ -35,19 +35,19 @@ namespace GymBookingSystem.Singleton
         {
             if (bookings.Contains(className))
             {
-                Console.WriteLine("⚠️ This class is already booked.");
+                Console.WriteLine(" This class is already booked.");
             }
             else
             {
                 bookings.Add(className);
-                Console.WriteLine("✅ '" + className + "' booked.");
+                Console.WriteLine(" '" + className + "' booked.");
             }
         }
 
         // Show all booked classes
         public void ShowBookings()
         {
-            Console.WriteLine("\n📋 Booked Classes:");
+            Console.WriteLine("\n Booked Classes:");
 
             if (bookings.Count == 0)
             {
