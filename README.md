@@ -1,4 +1,4 @@
-﻿# Gym Booking System 🏋️‍♂️
+﻿# Gym Booking System 
 
 > A digital console-based gym booking system that allows members to register, log in, book classes, and more. Owners and Admins have specialized menus and privileges.
 
